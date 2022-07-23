@@ -21,4 +21,4 @@ dependencies:
   - pytest=6.2.5
   - wandb=0.12.14
   - tensorflow=2.6.0
-  - keras=2.6.*
+  - keras=2.6.0
