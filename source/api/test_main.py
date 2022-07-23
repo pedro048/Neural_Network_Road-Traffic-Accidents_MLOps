@@ -1,6 +1,6 @@
 """
 Creators: Pedro Victor and Beatriz Soares
-Date: 23 May 2022
+Date: 23 July 2022
 Create API
 """
 from fastapi.testclient import TestClient

@@ -1,6 +1,6 @@
 """
 Creators: Pedro Victor and Beatriz Soares
-Date: 23 May 2022
+Date: 23 July 2022
 Script that POSTS to the API using the requests 
 module and returns both the result of 
 model inference and the status code
@@ -26,8 +26,8 @@ driver = {
     "Cause_of_accident": 'No priority to vehicle'
     }
 
-#url = "http://127.0.0.1:8000"
-url = "https://road-traffic-accidents-app.herokuapp.com"
+url = "http://127.0.0.1:8000"
+#url = "https://road-traffic-accidents-app.herokuapp.com"
 response = requests.post(f"{url}/predict",
                          json=driver)
 

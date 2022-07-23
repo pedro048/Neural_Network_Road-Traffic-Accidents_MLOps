@@ -1,6 +1,6 @@
 """
 Creators: Pedro Victor and Beatriz Soares
-Date: 23 May 2022
+Date: 23 July 2022
 Create API
 """
 # from typing import Union
@@ -19,10 +19,10 @@ setattr(sys.modules["__main__"], "FeatureSelector", FeatureSelector)
 setattr(sys.modules["__main__"], "CategoricalTransformer", CategoricalTransformer)
 
 # name of the model artifact
-artifact_model_name = "decision_tree1/model_export:latest"
+artifact_model_name = "neural_network1/model_export:latest"
 
 # initiate the wandb project
-run = wandb.init(project="decision_tree1",job_type="api")
+run = wandb.init(project="neural_network1",job_type="api")
 
 # create the api
 app = FastAPI()
