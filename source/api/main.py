@@ -99,14 +99,12 @@ async def get_inference(driver: Driver):
 
     # Predict test data
     predict = model.predict(data)
-    
-    all():
-        
-    if predict[0] == 0 and predict[1] == 0 and predict[2]  == 1:
+         
+    if all(predict[0]) == 0 and all(predict[1]) == 0 and all(predict[2]) == 1:
         return "Accident_severity: 2" 
-    elif predict[0] == 0 and predict[1] == 1 and predict[2]  == 0:
+    elif all(predict[0]) == 0 and all(predict[1]) == 1 and all(predict[2]) == 0:
         return "Accident_severity: 1" 
-    elif predict[0] == 1 and predict[1] == 0 and predict[2]  == 0:
+    elif all(predict[0]) == 1 and all(predict[1]) == 0 and all(predict[2]) == 0:
         return "Accident_severity: 0"
     else:
         return "Incorrect result"
