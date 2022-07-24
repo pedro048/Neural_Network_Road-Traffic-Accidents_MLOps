@@ -46,7 +46,15 @@ To train our model, we need to split train and test data first, then we further 
 
 ### **2.4 - Train**
 
-In this step we will prepare our data: remove the outliers, try to minimize the cardinality of some categorical features. Then, finally, we can define the hyperparameters of the pipeline to actually train our model and find the best configuration.
+In this step we will prepare our data: remove the outliers, try to minimize the cardinality of some categorical features. Then, finally, we can define the hyperparameters of the pipeline (hyperparameter tuning) to actually train our model and find the best configuration through wandb sweep. Among the options to improve learning, we have chosen
+
+  - Configure capacity with node and layers
+  - Configure gradient precision with batch size
+  - Configure what to optimize with loss function
+  - Fix vanishing gradient with relu
+  - Accelerate learning with batch normalization
+
+
 
 ### **2.5 - Test**
 
@@ -66,9 +74,9 @@ You can find the implemented API in the source/api/main.py whereas tests are on 
 
 ### **3.1 - API Delivered with Heroku:** 
 
-## **3.2 - Article on Medium**:
+## **4 - Article on Medium**:
 
-## **3.3 - Comparing the results with a Decision Tree model**:
+## **5 - Comparing the results with a Decision Tree model**:
 
 ## References:
 
