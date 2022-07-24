@@ -19,7 +19,7 @@ The dataset [Road_Traffic_Accidents.csv](https://www.kaggle.com/datasets/saurabh
 
 ### Workflow and Deploy:
 
-In this project you will find the steps necessary for building a classification model, such as setting up the environment, performing exploratory data analysis (EDA), processing, training and testing your model, and deploying a pipeline in production. All the code used on the project can be also found in this [Jupyter Notebook](https://github.com/pedro048/MLOps_Road-Traffic-Accidents/blob/main/Project_Road_Traffic_Accidents/Project_Road_Traffic_Accidents.ipynb), since we're gonna be using Python. The main goal here is to predict the severity of a road traffic accidents, based on variables available in the dataset, deploy it to Heroku and test it live, as [a Deliveried API ](https://road-traffic-accidents-app.herokuapp.com/docs). Decision tree was the classification method used and severity of road traffic accidents can reach three diffrent levels: 0, 1, 2.
+In this project you will find the steps necessary for building a classification model, such as setting up the environment, performing exploratory data analysis (EDA), processing, training and testing your model, and deploying a pipeline in production. All the code used on the project can be also found in this [Jupyter Notebook](https://github.com/pedro048/Neural_Network_Road-Traffic-Accidents_MLOps), since we're gonna be using Python. The main goal here is to predict the severity of a road traffic accidents, based on variables available in the dataset, deploy it to Heroku and test it live, as [a Deliveried API ](). Neural network was the classification method used and severity of road traffic accidents can reach three diffrent levels: 0, 1, 2.
 
 
 ## Workflow:
