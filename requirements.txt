@@ -7,7 +7,7 @@ joblib==1.1.0
 uvicorn==0.17.5
 fastapi==0.74.0
 pydantic==1.9.0
-wandb
+wandb==0.12.14
 tensorflow-cpu
 
 
