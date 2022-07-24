@@ -13,18 +13,18 @@
 
 ![Accident](https://lh3.googleusercontent.com/pw/AM-JKLX-DKD3hwss7RQ3TLRC_oSKvfWMLhhHUMbxTJWDe1PzV21gBNnqM_FYzzrRCiI8FhHjEc2UhXIKvLIK2xfGaEsxEo2Gna6wfbygyNULPBglcEt8wwNKM0Nt_y-t3TMMdnWKXJgkq7vbnlzU9HkW2gL8=w500-h320-no?authuser=0)
 
-## Project's overview:
+## 1 - Project's overview:
 
-### Chosen Dataset:
+### 1.1 -Chosen Dataset:
 
 The dataset [Road_Traffic_Accidents.csv](https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents), from Kaggle, was collected from Addis Ababa Sub city police departments for Masters research work and it has been prepared from manual records of road traffic accident of the year 2017-2020. All the sensitive information have been excluded during data encoding and finally it has 32 features and 12316 instances of the accident. Then it is preprocessed and for identification of major causes of the accident by analyzing it using different machine learning classification algorithms.
 
-### Workflow and Deploy:
+### 1.2 - Workflow and Deploy:
 
 In this project you will find the steps necessary for building a classification model, such as setting up the environment, performing exploratory data analysis (EDA), processing, training and testing your model, and deploying a pipeline in production. All the code used on the project can be also found in this [Jupyter Notebook](https://github.com/pedro048/Neural_Network_Road-Traffic-Accidents_MLOps/tree/main/Project_NN_Road_Traffic_Accidents), since we're gonna be using Python. The main goal here is to predict the severity of a road traffic accidents, based on variables available in the dataset, deploy it to Heroku and test it live, as [a Deliveried API ](). Neural network was the classification method used and severity of road traffic accidents can reach three diffrent levels: 0, 1, 2.
 
 
-## Workflow:
+## 2 - Workflow:
 
 The pipeline in charge of initiate the process of place a ML model in production can be found in the image below:
 
@@ -32,31 +32,29 @@ The pipeline in charge of initiate the process of place a ML model in production
 
 The steps illustrated in the picture above are:
 
-### **1. Extract, Transform and Load (ETL)**
+### **2.1 - Extract, Transform and Load (ETL)**
 
 Before we start creating our model we need to import the dataset, send the raw data to a tracking tool for machine learning (in our case, that will be Wandb), summarize our dataset using pandas profiling, and “clean” the data such as removing the duplicates.
 
-### **2. Data Check**
+### **2.2 -  Data Check**
 
 With our preprocessed data ready, it’s important to run some tests to make sure that we have enough data to continue, and that all columns follow their own classes pattern.
 
-### **3. Data Segregation**
+### **2.3 - Data Segregation**
 
 To train our model, we need to split train and test data first, then we further divide the dataset into train and validation.
 
-### **4. Train**
+### **2.4 - Train**
 
 In this step we will prepare our data: remove the outliers, try to minimize the cardinality of some categorical features. Then, finally, we can define the hyperparameters of the pipeline to actually train our model and find the best configuration.
 
-### **5. Test**
+### **2.5 - Test**
 
 To test the model, we are going to use the test/validation data and run it in the model.
 
+### **2.6 - Project's workflow:** https://github.com/pedro048/Neural_Network_Road-Traffic-Accidents_MLOps/tree/main/Project_NN_Road_Traffic_Accidents 
 
-
-### **Project's workflow:** https://github.com/pedro048/Neural_Network_Road-Traffic-Accidents_MLOps/tree/main/Project_NN_Road_Traffic_Accidents 
-
-## Deploy:
+## 3 - Deploy:
 
 All the process described in the image below is able to deliver a functional API:
 
@@ -66,11 +64,11 @@ We deployed the model using the FastAPI package and incorporated it into a CI/CD
 
 You can find the implemented API in the source/api/main.py whereas tests are on source/api/test_main.py.
 
-### **API Delivered with Heroku:** 
+### **3.1 - API Delivered with Heroku:** 
 
-## **Article on Medium**:
+## **3.2 - Article on Medium**:
 
-## **Comparing the results with a Decision Tree model**:
+## **3.3 - Comparing the results with a Decision Tree model**:
 
 ## References:
 
