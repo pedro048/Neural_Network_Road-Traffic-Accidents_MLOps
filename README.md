@@ -1,4 +1,4 @@
-# Projeto de MLOps: Road Traffic Accidents
+# Projeto de MLOps: Road Traffic Accidents Classification with Neural Network
 
 **PROGRAMA DE PÓS-GRADUAÇÃO EM ENGENHARIA ELÉTRICA E DE COMPUTAÇÃO (PPgEEC) - UFRN**
 
@@ -64,9 +64,9 @@ We deployed the model using the FastAPI package and incorporated it into a CI/CD
 
 You can find the implemented API in the source/api/main.py whereas tests are on source/api/test_main.py.
 
-### **API Delivered with Heroku:** https://road-traffic-accidents-app.herokuapp.com/docs
+### **API Delivered with Heroku:** 
 
-## **Article on Medium**: https://medium.com/@bs.souza1998/getting-started-with-machine-learning-build-and-deploy-your-first-classification-model-87a4f3078b97
+## **Article on Medium**: 
 
 ## References:
 
