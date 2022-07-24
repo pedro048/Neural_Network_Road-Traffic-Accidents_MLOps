@@ -92,11 +92,11 @@ async def get_inference(driver: Driver):
     # Predict test data
     predict = pipe.predict(df)
 
-    if predict[0] == 2:
+    if predict[0] == 0 and predict[1] == 0 and predict[2] == 1:
         return "Accident_severity: 2" 
-    elif predict[0] == 1:
+    elif predict[0] == 0 and predict[1] == 1 and predict[2] == 0:
         return "Accident_severity: 1" 
-    elif predict[0] == 0:
+    elif predict[0] == 1 and predict[1] == 0 and predict[2] == 0:
         return "Accident_severity: 0"
     else:
         return "Incorrect result"
