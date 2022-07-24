@@ -11,6 +11,8 @@
 
 **Dataset:** [Road_Traffic_Accidents.csv](https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents)
 
+![Accident](https://lh3.googleusercontent.com/pw/AM-JKLX-DKD3hwss7RQ3TLRC_oSKvfWMLhhHUMbxTJWDe1PzV21gBNnqM_FYzzrRCiI8FhHjEc2UhXIKvLIK2xfGaEsxEo2Gna6wfbygyNULPBglcEt8wwNKM0Nt_y-t3TMMdnWKXJgkq7vbnlzU9HkW2gL8=w500-h320-no?authuser=0)
+
 ## Project's overview:
 
 ### Chosen Dataset:
