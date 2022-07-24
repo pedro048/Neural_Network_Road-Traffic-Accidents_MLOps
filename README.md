@@ -52,7 +52,7 @@ To test the model, we are going to use the test/validation data and run it in th
 
 
 
-### **Project's workflow:** https://github.com/pedro048/MLOps_Road-Traffic-Accidents/blob/main/Project_Road_Traffic_Accidents/Project_Road_Traffic_Accidents.ipynb 
+### **Project's workflow:** https://github.com/pedro048/Neural_Network_Road-Traffic-Accidents_MLOps/tree/main/Project_NN_Road_Traffic_Accidents 
 
 ## Deploy:
 
