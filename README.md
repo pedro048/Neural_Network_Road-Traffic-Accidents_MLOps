@@ -32,23 +32,23 @@ The pipeline in charge of initiate the process of place a ML model in production
 
 The steps illustrated in the picture above are:
 
-**### 1. Extract, Transform and Load (ETL)**
+### **1. Extract, Transform and Load (ETL)**
 
 Before we start creating our model we need to import the dataset, send the raw data to a tracking tool for machine learning (in our case, that will be Wandb), summarize our dataset using pandas profiling, and “clean” the data such as removing the duplicates.
 
-**### 2. Data Check**
+### **2. Data Check**
 
 With our preprocessed data ready, it’s important to run some tests to make sure that we have enough data to continue, and that all columns follow their own classes pattern.
 
-**### 3. Data Segregation**
+### **3. Data Segregation**
 
 To train our model, we need to split train and test data first, then we further divide the dataset into train and validation.
 
-**### 4. Train**
+### **4. Train**
 
 In this step we will prepare our data: remove the outliers, try to minimize the cardinality of some categorical features. Then, finally, we can define the hyperparameters of the pipeline to actually train our model and find the best configuration.
 
-**### 5. Test**
+### **5. Test**
 
 To test the model, we are going to use the test/validation data and run it in the model.
 
