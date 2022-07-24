@@ -46,7 +46,7 @@ To train our model, we need to split train and test data first, then we further 
 
 ### **2.4 - Train**
 
-In this step we will prepare our data: remove the outliers, try to minimize the cardinality of some categorical features. Then, finally, we can define the hyperparameters of the pipeline (hyperparameter tuning) to actually train our model and find the best configuration through wandb sweep. Among the options to improve learning, we have chosen
+In this step we will prepare our data: remove the outliers, try to minimize the cardinality of some categorical features. Then, finally, we can define the hyperparameters of the pipeline (hyperparameter tuning) to actually train our model and find the best configuration through wandb sweep. **Among the options to improve learning, we have chosen**
 
   - Configure capacity with node and layers
   - Configure gradient precision with batch size
@@ -54,7 +54,7 @@ In this step we will prepare our data: remove the outliers, try to minimize the 
   - Fix vanishing gradient with relu
   - Accelerate learning with batch normalization
   
-Applied techniques to improve the generalization
+**Applied techniques to improve the generalization**
 
   - Decouple layers with dropout
   - Halt training at the right time with early stopping
