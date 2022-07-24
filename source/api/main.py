@@ -11,6 +11,7 @@ import pandas as pd
 import joblib
 import os
 import wandb
+import tensorflow
 import sys
 from source.api.pipeline import FeatureSelector, CategoricalTransformer
 
@@ -83,20 +84,27 @@ async def get_inference(driver: Driver):
     model_export_path = run.use_artifact(artifact_model_name).file()
     pipe = joblib.load(model_export_path)
     
+    #load best model
+    best_model = wandb.restore('model-best.h5', run_path="pedro_victor046/neural_network1/zmketyas")
+    model = tensorflow.keras.models.load_model(best_model.name)
+    
     # Create a dataframe from the input feature
     # note that we could use pd.DataFrame.from_dict
     # but due be only one instance, it would be necessary to
     # pass the Index.
     df = pd.DataFrame([driver.dict()])
+    
+    #pipeline to transform
+    data = pipe.transform(df)
 
     # Predict test data
-    predict = pipe.predict(df)
+    predict = model.predict(data)
 
-    if predict[0] == 0 and predict[1] == 0 and predict[2] == 1:
+    if predict[0] == 2:
         return "Accident_severity: 2" 
-    elif predict[0] == 0 and predict[1] == 1 and predict[2] == 0:
+    elif predict[0] == 1:
         return "Accident_severity: 1" 
-    elif predict[0] == 1 and predict[1] == 0 and predict[2] == 0:
+    elif predict[0] == 0:
         return "Accident_severity: 0"
     else:
         return "Incorrect result"
