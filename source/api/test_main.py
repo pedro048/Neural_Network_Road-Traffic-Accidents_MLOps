@@ -7,6 +7,9 @@ from fastapi.testclient import TestClient
 import os
 import sys
 import pathlib
+
+print(os.getcwd())
+
 from source.api.main import app
 
 # Instantiate the testing client with our app.
