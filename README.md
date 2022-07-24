@@ -19,6 +19,24 @@
 
 The dataset [Road_Traffic_Accidents.csv](https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents), from Kaggle, was collected from Addis Ababa Sub city police departments for Masters research work and it has been prepared from manual records of road traffic accident of the year 2017-2020. All the sensitive information have been excluded during data encoding and finally it has 32 features and 12316 instances of the accident. Then it is preprocessed and for identification of major causes of the accident by analyzing it using different machine learning classification algorithms.
 
+The datasets consists of the following features:
+
+- Age_band_of_driver
+- Sex_of_driver
+- Educational_level
+- Vehicle_driver_relation
+- Driving_experience
+- Lanes_or_Medians
+- Types_of_Junction
+- Road_surface_type
+- Light_conditions
+- Weather_conditions
+- Type_of_collision
+- Vehicle_movement
+- Pedestrian_movement
+- Cause_of_accident
+- Accident_severity
+
 ### 1.2 - Workflow and Deploy:
 
 In this project you will find the steps necessary for building a classification model, such as setting up the environment, performing exploratory data analysis (EDA), processing, training and testing your model, and deploying a pipeline in production. All the code used on the project can be also found in this [Jupyter Notebook](https://github.com/pedro048/Neural_Network_Road-Traffic-Accidents_MLOps/blob/main/Project_NN_Road_Traffic_Accidents/Project_NN_Road_Traffic_Accidents.ipynb), since we're gonna be using Python. The main goal here is to predict the severity of a road traffic accidents, based on variables available in the dataset, deploy it to Heroku and test it live, as [a Deliveried API ](). Neural network was the classification method used and severity of road traffic accidents can reach three diffrent levels: 0, 1, 2.
