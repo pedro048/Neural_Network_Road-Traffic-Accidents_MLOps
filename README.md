@@ -53,7 +53,11 @@ In this step we will prepare our data: remove the outliers, try to minimize the 
   - Configure what to optimize with loss function
   - Fix vanishing gradient with relu
   - Accelerate learning with batch normalization
+  
+Applied techniques to improve the generalization
 
+  - Decouple layers with dropout
+  - Halt training at the right time with early stopping
 
 
 ### **2.5 - Test**
