@@ -88,6 +88,8 @@ You can find the implemented API in the source/api/main.py whereas tests are on 
 
 ### **5.2 - Decision Tree**
 
+![DT_Metric](https://lh3.googleusercontent.com/pw/AM-JKLW6KKIS-QqDNPc1rXQKDgykKNzcIcwovdvhPeEjnymGjPh5EGvLx3iRxNvnYPxjQJWsw9rFu9v80Pj1IpoHnwRcy6JwkoM1W1oRJTaOG9Vm8FpckQBmpVLscCJfNFrSPBz6kuscstygv_sGX5eVDoYD=w1805-h948-no?authuser=0)
+
 ## References:
 
 - https://github.com/ivanovitchm/ppgeecmachinelearning
