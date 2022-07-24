@@ -21,21 +21,21 @@ The dataset [Road_Traffic_Accidents.csv](https://www.kaggle.com/datasets/saurabh
 
 The datasets consists of the following features:
 
-**- Age_band_of_driver**
-**- Sex_of_driver**
-**- Educational_level**
-**- Vehicle_driver_relation**
-**- Driving_experience**
-**- Lanes_or_Medians**
-**- Types_of_Junction**
-**- Road_surface_type**
-**- Light_conditions**
-**- Weather_conditions**
-**- Type_of_collision**
-**- Vehicle_movement**
-**- Pedestrian_movement**
-**- Cause_of_accident**
-**- Accident_severity**
+- **Age_band_of_driver**
+- **Sex_of_driver**
+- **Educational_level**
+- **Vehicle_driver_relation**
+- **Driving_experience**
+- **Lanes_or_Medians**
+- **Types_of_Junction**
+- **Road_surface_type**
+- **Light_conditions**
+- **Weather_conditions**
+- **Type_of_collision**
+- **Vehicle_movement**
+- **Pedestrian_movement**
+- **Cause_of_accident**
+- **Accident_severity**
 
 ### 1.2 - Workflow and Deploy:
 
@@ -66,16 +66,16 @@ To train our model, we need to split train and test data first, then we further 
 
 In this step we will prepare our data: remove the outliers, try to minimize the cardinality of some categorical features. Then, finally, we can define the hyperparameters of the pipeline (hyperparameter tuning) to actually train our model and find the best configuration through wandb sweep. **Among the options to improve learning, we have chosen**
 
-  **- Configure capacity with node and layers**
-  **- Configure gradient precision with batch size**
-  **- Configure what to optimize with loss function**
-  **- Fix vanishing gradient with relu**
-  **- Accelerate learning with batch normalization**
+  - **Configure capacity with node and layers**
+  - **Configure gradient precision with batch size**
+  - **Configure what to optimize with loss function**
+  - **Fix vanishing gradient with relu**
+  - **Accelerate learning with batch normalization**
   
 **Applied techniques to improve generalization**
 
-  **- Decouple layers with dropout**
-  **- Halt training at the right time with early stopping**
+  - **Decouple layers with dropout**
+  - **Halt training at the right time with early stopping**
 
 
 ### **2.5 - Test**
