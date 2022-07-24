@@ -82,6 +82,10 @@ You can find the implemented API in the source/api/main.py whereas tests are on 
 
 ## **5 - Comparing the results with a Decision Tree model**:
 
+### **5.1 - Neural Network**
+
+### **5.2 - Decision Tree**
+
 ## References:
 
 - https://github.com/ivanovitchm/ppgeecmachinelearning
