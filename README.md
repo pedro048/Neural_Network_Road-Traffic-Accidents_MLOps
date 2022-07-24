@@ -68,7 +68,9 @@ You can find the implemented API in the source/api/main.py whereas tests are on 
 
 ### **API Delivered with Heroku:** 
 
-## **Article on Medium**: 
+## **Article on Medium**:
+
+## **Comparing the results with a Decision Tree model**:
 
 ## References:
 
