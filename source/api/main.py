@@ -92,7 +92,8 @@ async def get_inference(driver: Driver):
     # note that we could use pd.DataFrame.from_dict
     # but due be only one instance, it would be necessary to
     # pass the Index.
-    df = pd.DataFrame([driver.dict()])
+    #df = pd.DataFrame([driver.dict()])
+    df = pd.DataFrame(driver)
     
     #pipeline to transform
     data = pipe.transform(df)
