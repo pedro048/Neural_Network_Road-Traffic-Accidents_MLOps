@@ -93,7 +93,6 @@ async def get_inference(driver: Driver):
     # but due be only one instance, it would be necessary to
     # pass the Index.
     df = pd.DataFrame([driver.dict()])
-    #df = pd.DataFrame(driver)
     
     #pipeline to transform
     data = pipe.transform(df)
@@ -101,11 +100,11 @@ async def get_inference(driver: Driver):
     # Predict test data
     predict = model.predict(data)
          
-    if predict[0,0] == 0 and predict[0,1] == 0 and predict[0,2] == 1:
+    if predict[0,2] > predict[0,0] and predict[0,2] > predict[0,1]:
         return "Accident_severity: 2" 
-    elif predict[0,0] == 0 and predict[0,1] == 1 and predict[0,2] == 0:
+    elif predict[0,1] > predict[0,0] and predict[0,1] > predict[0,2]:
         return "Accident_severity: 1" 
-    elif predict[0,0] == 1 and predict[0,1] == 0 and predict[0,2] == 0:
+    elif predict[0,0] > predict[0,1] and predict[0,0] > predict[0,2]:
         return "Accident_severity: 0"
     else:
         return "Incorrect result"
