@@ -26,20 +26,20 @@ def test_root():
 def test_get_accident_severity_0():
 
     driver = {
-        "Age_band_of_driver": '31-50',
+        "Age_band_of_driver": '18-30',
         "Sex_of_driver": 'Male',
-        "Educational_level": 'High school',
+        "Educational_level": 'Unknown',
         "Vehicle_driver_relation": 'Unknown',
-        "Driving_experience": 'High school',
-        "Lanes_or_Medians": 'One way',
-        "Types_of_Junction": 'No junction',
-        "Road_surface_type": 'Earth roads',
-        "Light_conditions": 'Daylight',
+        "Driving_experience": 'Unknown',
+        "Lanes_or_Medians": 'Two-way (divided with broken lines road marking)',
+        "Types_of_Junction": 'Y Shape',
+        "Road_surface_type": 'Asphalt roads',
+        "Light_conditions": 'Darkness - lights lit',
         "Weather_conditions": 'Raining',
-        "Type_of_collision": 'Vehicle with vehicle collision',
-        "Vehicle_movement": 'Unknown',
+        "Type_of_collision": 'Collision with pedestrians',
+        "Vehicle_movement": 'Going straight',
         "Pedestrian_movement": 'Not a Pedestrian',
-        "Cause_of_accident": 'No priority to vehicle'
+        "Cause_of_accident": 'Driving under the influence of drugs'
     }
 
     r = client.post("/predict", json=driver)
