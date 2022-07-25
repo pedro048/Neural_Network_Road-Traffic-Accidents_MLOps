@@ -106,6 +106,6 @@ async def get_inference(driver: Driver):
         return "Accident_severity: 1" 
     elif predict[0,0] == 1 and predict[0,1] == 0 and predict[0,2] == 0:
         return "Accident_severity: 0"
-    else:
-        return "Incorrect result"
+    #else:
+        #return "Incorrect result"
     
