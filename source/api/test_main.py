@@ -53,20 +53,20 @@ def test_get_accident_severity_0():
 def test_get_accident_severity_1():
 
     driver = {
-        "Age_band_of_driver": '18-30',
+        "Age_band_of_driver": 'Over 51',
         "Sex_of_driver": 'Male',
-        "Educational_level": 'Junior high school',
-        "Vehicle_driver_relation": 'Employee',
+        "Educational_level": 'High school',
+        "Vehicle_driver_relation": 'Owner',
         "Driving_experience":  '1-2yr',
         "Lanes_or_Medians": 'other',
-        "Types_of_Junction": 'No junction',
-        "Road_surface_type": 'Asphalt roads',
+        "Types_of_Junction": 'Y Shape',
+        "Road_surface_type": 'Asphalt roads with some distress',
         "Light_conditions": 'Daylight',
         "Weather_conditions": 'Normal',
-        "Type_of_collision": 'Collision with roadside objects',
+        "Type_of_collision": 'Vehicle with vehicle collision',
         "Vehicle_movement": 'Going straight',
         "Pedestrian_movement": 'Not a Pedestrian',
-        "Cause_of_accident": 'Changing lane to the left'
+        "Cause_of_accident": 'No distancing'
     }
 
     r = client.post("/predict", json=driver)
