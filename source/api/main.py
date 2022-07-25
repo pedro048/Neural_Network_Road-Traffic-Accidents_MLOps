@@ -102,7 +102,7 @@ async def get_inference(driver: Driver):
          
     if predict[0,2] > predict[0,0] and predict[0,2] > predict[0,1]:
         return "Accident_severity: 2" 
-    elif (predict[0,1]+0.2) > predict[0,0] and (predict[0,1]+0.2) > predict[0,2]:
+    elif (predict[0,1]+0.3) > predict[0,0] and (predict[0,1]+0.3) > predict[0,2]:
         return "Accident_severity: 1" 
     elif (predict[0,0]+0.2) > predict[0,1] and (predict[0,0]+0,2) > predict[0,2]:
         return "Accident_severity: 0"
