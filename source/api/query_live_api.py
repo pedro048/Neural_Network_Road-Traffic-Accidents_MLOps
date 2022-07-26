@@ -26,8 +26,8 @@ driver = {
     "Cause_of_accident": 'No priority to vehicle'
     }
 
-url = "http://127.0.0.1:8000"
-#url = "https://road-traffic-accidents-app.herokuapp.com"
+#url = "http://127.0.0.1:8000"
+url = "https://nn-road-traffic-accidents-app.herokuapp.com"
 response = requests.post(f"{url}/predict",
                          json=driver)
 
