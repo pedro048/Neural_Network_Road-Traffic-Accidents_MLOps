@@ -106,6 +106,8 @@ You can find the implemented API in the source/api/main.py whereas tests are on 
 
 ![NN_Metric](https://lh3.googleusercontent.com/pw/AM-JKLX4qyNjIcznycOeqAkHjAca9ZY5RzxM5j93NV_huCIWDhIAW-uBvEG9sKDtQU8gRX3CPibBT6Ub_4ZeHs9fdhOYoiQz9JDgE-FxpMAP3jUriq2Zo3NokRhR_T4OApdXxikQNo3CLHvk7_8MWJIUJJyu=w1805-h948-no?authuser=0)
 
+![Val_accuracy_Acc](https://lh3.googleusercontent.com/pw/AM-JKLWSMixAvUrRgtIvT8gVROZXE_PCnMdFX-DE4HHaPioM8cDCKkl5cu4JAT12Yd-SerRzLq0RK90qBn8saNhg5JAN3P4ZR4EAmgiFR1o2xaJbLMOqSLv6iuEY3YFxF0t6QMcDuWluJglDAg1aPY5IvCvg=w1191-h311-no?authuser=0)
+
 ### **6.2 - Decision Tree**
 
 ![DT_Metric](https://lh3.googleusercontent.com/pw/AM-JKLW6KKIS-QqDNPc1rXQKDgykKNzcIcwovdvhPeEjnymGjPh5EGvLx3iRxNvnYPxjQJWsw9rFu9v80Pj1IpoHnwRcy6JwkoM1W1oRJTaOG9Vm8FpckQBmpVLscCJfNFrSPBz6kuscstygv_sGX5eVDoYD=w1805-h948-no?authuser=0)
