@@ -70,7 +70,7 @@ class Driver(BaseModel):
 @app.get("/", response_class=HTMLResponse)
 async def root():
     return """
-    <p><span style="font-size:28px"><strong>Hello World</strong></span></p>"""\
+    <p><span style="font-size:28px"><strong>Projeto de MLOps: Road Traffic Accidents Classification with Neural Network</strong></span></p>"""\
     """<p><span style="font-size:20px">In this project, we will apply the skills """\
         """acquired in the Deploying a Scalable ML Pipeline in Production course to develop """\
         """a classification model on publicly available"""\
