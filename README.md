@@ -39,7 +39,7 @@ The datasets consists of the following features:
 
 ### 1.2 - Workflow and Deploy:
 
-In this project you will find the steps necessary for building a classification model, such as setting up the environment, performing exploratory data analysis (EDA), processing, training and testing your model, and deploying a pipeline in production. All the code used on the project can be also found in this [Jupyter Notebook](https://github.com/pedro048/Neural_Network_Road-Traffic-Accidents_MLOps/blob/main/Project_NN_Road_Traffic_Accidents/Project_NN_Road_Traffic_Accidents.ipynb), since we're gonna be using Python. The main goal here is to predict the severity of a road traffic accidents, based on variables available in the dataset, deploy it to Heroku and test it live, as [a Deliveried API ](). Neural network was the classification method used and severity of road traffic accidents can reach three diffrent levels: 0, 1, 2.
+In this project you will find the steps necessary for building a classification model, such as setting up the environment, performing exploratory data analysis (EDA), processing, training and testing your model, and deploying a pipeline in production. All the code used on the project can be also found in this [Jupyter Notebook](https://github.com/pedro048/Neural_Network_Road-Traffic-Accidents_MLOps/blob/main/Project_NN_Road_Traffic_Accidents/Project_NN_Road_Traffic_Accidents.ipynb), since we're gonna be using Python. The main goal here is to predict the severity of a road traffic accidents, based on variables available in the dataset, deploy it to Heroku and test it live, as [a Deliveried API ](https://nn-road-traffic-accidents-app.herokuapp.com/docs). Neural network was the classification method used and severity of road traffic accidents can reach three diffrent levels: 0, 1, 2.
 
 
 ## 2 - Workflow:
@@ -94,7 +94,7 @@ We deployed the model using the FastAPI package and incorporated it into a CI/CD
 
 You can find the implemented API in the source/api/main.py whereas tests are on source/api/test_main.py.
 
-### **3.1 - API Delivered with Heroku:** 
+### **3.1 - API Delivered with Heroku:** https://nn-road-traffic-accidents-app.herokuapp.com/docs
 
 ## **4 - Article on Medium**:
 
