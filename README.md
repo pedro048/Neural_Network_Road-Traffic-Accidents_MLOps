@@ -98,7 +98,7 @@ You can find the implemented API in the source/api/main.py whereas tests are on 
 
 ## **4 - Article on Medium**:
 
-## **5 - Pitch (Loom)**:
+## **5 - Pitch (Loom)**: https://www.loom.com/share/ebd9c738a82f478897620381f0934253
 
 ## **6 - Comparing the results with a Decision Tree model**:
 
