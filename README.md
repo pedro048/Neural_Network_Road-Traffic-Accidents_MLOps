@@ -114,6 +114,8 @@ You can find the implemented API in the source/api/main.py whereas tests are on 
 
 ![DT_Metric](https://lh3.googleusercontent.com/pw/AM-JKLW6KKIS-QqDNPc1rXQKDgykKNzcIcwovdvhPeEjnymGjPh5EGvLx3iRxNvnYPxjQJWsw9rFu9v80Pj1IpoHnwRcy6JwkoM1W1oRJTaOG9Vm8FpckQBmpVLscCJfNFrSPBz6kuscstygv_sGX5eVDoYD=w1805-h948-no?authuser=0)
 
+![Parameters_DT](https://lh3.googleusercontent.com/pw/AM-JKLWSDTGz-giI7gdpIQiRlzYsY_vRQZeppWZoiPQ6k6UgcKhxlQRLptuK_xmUTEN2SUUV-yoS2zd4VHqV7AiwyXzSGiuQ2vXPkVsuNJnNnifDSSWLdQ48RCD8y30O7EXwmVI05M_pIRZK6NrRh_5cPzAg=w1121-h311-no?authuser=0)
+
 ## References:
 
 - https://github.com/ivanovitchm/ppgeecmachinelearning
