@@ -96,7 +96,7 @@ You can find the implemented API in the source/api/main.py whereas tests are on 
 
 ### **3.1 - API Delivered with Heroku:** https://nn-road-traffic-accidents-app.herokuapp.com/docs
 
-## **4 - Article on Medium**:
+## **4 - Article on Medium**: https://medium.com/@pedro.victor046/hyperparameter-tuning-a-comparison-with-the-decision-tree-model-bf1f9fd2e8eb
 
 ## **5 - Pitch (Loom)**: https://www.loom.com/share/ebd9c738a82f478897620381f0934253
 
